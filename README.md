@@ -1,6 +1,6 @@
 # 提问箱Demo
 
-### Vue3 + Ts + Tailwind Css
+### Vue3 + Tailwind Css
 
 ```
 pnpm install
