@@ -10,7 +10,7 @@
       <div class="py-2">
         {{props.content}}
       </div>
-      <p class="mt-4 text-gray-400 text-sm">—著作权归回答者所有—</p>
+      <p class="mt-4 text-gray-400 text-sm">爱德蒙·邓蒂斯 ——《基督山伯爵》</p>
       <div class="text-center mt-8">
         <button class="text-white bg-[#4dd5ed] py-2 px-8 rounded-3xl">
           向ta发起匿名提问
