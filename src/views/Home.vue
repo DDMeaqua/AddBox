@@ -28,7 +28,7 @@
 
     <!-- QA -->
     <div>
-      <div class="mt-8 text-lg pl-3 text-white font-bold pb-4 drop-shadow-lg">
+      <div class="mt-40 text-lg pl-3 text-white font-bold pb-4 drop-shadow-lg">
         xxx回答过的问题（75）
       </div>
 
