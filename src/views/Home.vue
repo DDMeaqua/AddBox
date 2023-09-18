@@ -4,7 +4,7 @@
       <router-link to="/">
         <img
           class="w-16 h-16 rounded-full mx-auto border"
-          src="../assets/hhh.png"
+          src="/hhh.png"
           alt=""
         />
       </router-link>
@@ -18,12 +18,12 @@
       </div>
     </div>
     <router-link to="/qa">
-    <div class="px-4 py-2 bg-white p-4 w-3/4 rounded-xl mx-auto mt-6">
-      <p class="p-4 text-center">Ask me anyting！<br />欢迎向我匿名提问！</p>
-    </div>
-    <div class="text-sm mt-3 text-center drop-shadow-lg">
-      点击此处向我匿名提问
-    </div>
+      <div class="px-4 py-2 bg-white p-4 w-3/4 rounded-xl mx-auto mt-6">
+        <p class="p-4 text-center">Ask me anyting！<br />欢迎向我匿名提问！</p>
+      </div>
+      <div class="text-sm mt-3 text-center drop-shadow-lg">
+        点击此处向我匿名提问
+      </div>
     </router-link>
 
     <!-- QA -->
@@ -36,28 +36,27 @@
 
       <router-link to="/info">
         <Card
-        title="开学焦虑怎么办"
-        userimg="/src/assets/hhh.png"
-        content="找我吃饭!我感觉我没有开学焦虑的很大一部分原因是因为一开学就可以见到两个月没见的好朋友们啦"
+          title="开学焦虑怎么办"
+          userimg="/hhh.png"
+          content="找我吃饭!我感觉我没有开学焦虑的很大一部分原因是因为一开学就可以见到两个月没见的好朋友们啦"
         />
       </router-link>
 
       <router-link to="/info">
         <Card
-        title="为什么要睡着"
-        userimg="/src/assets/hhh.png"
-        content="缺乏睡眠会死人的"
+          title="为什么要睡着"
+          userimg="/hhh.png"
+          content="缺乏睡眠会死人的"
         />
       </router-link>
 
       <router-link to="/info">
         <Card
-        title="暑假怎么找相关专业的实习呀😐"
-        userimg="/src/assets/hhh.png"
-        content="海投，去招聘软件"
+          title="暑假怎么找相关专业的实习呀😐"
+          userimg="/hhh.png"
+          content="海投，去招聘软件"
         />
       </router-link>
-
     </div>
   </div>
 </template>

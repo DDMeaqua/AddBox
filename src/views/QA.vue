@@ -4,7 +4,7 @@
       <router-link to="/">
       <img
         class="w-16 h-16 rounded-full mx-auto border"
-        src="../assets/hhh.png"
+        src="/hhh.png"
         alt=""
       />
       </router-link>
