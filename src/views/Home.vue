@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="px-4">
+    <div class="px-2">
       <div class="flex flex-wrap">
-        <div @click="showModal = true"><Character /></div>
-        <div @click="showModal = true"><Character /></div>
-        <div @click="showModal = true"><Character /></div>
-        <div @click="showModal = true"><Character /></div>
-        <div @click="showModal = true"><Character /></div>
+        <Character @click="showModal = true" />
+        <Character @click="showModal = true" />
+        <Character @click="showModal = true" />
+        <Character @click="showModal = true" />
+        <Character @click="showModal = true" />
       </div>
     </div>
 
