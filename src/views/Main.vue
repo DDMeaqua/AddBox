@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="px-4">
-      <div class="bg-[#D9EEEC] rounded-xl text-center w-full mx-auto py-2 text-2xl">
+      <div class="bg-[#D9EEEC] rounded-xl text-center w-full mx-auto py-4 text-3xl mb-4">
         《 人物选择 》
       </div>
       <div class="flex flex-wrap">
