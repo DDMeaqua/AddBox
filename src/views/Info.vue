@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="pt-4">
-      <router-link to="/">
+      <router-link to="/main">
         <img
           class="w-16 h-16 rounded-full mx-auto border"
           src="/hhh.png"

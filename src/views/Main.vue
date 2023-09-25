@@ -1,45 +1,59 @@
 <template>
   <div>
-    <div class="px-4">
-      <div class="bg-[#D9EEEC] rounded-xl text-center w-full mx-auto py-4 text-3xl mb-4">
-        《 人物选择 》
-      </div>
-      <div class="flex flex-wrap">
-        <div @click="showModal = true"><Character /></div>
-        <div @click="showModal = true"><Character /></div>
-        <div @click="showModal = true"><Character /></div>
-        <div @click="showModal = true"><Character /></div>
-        <div @click="showModal = true"><Character /></div>
+    <div class="pt-4">
+      <router-link to="/">
+        <img
+          class="w-16 h-16 rounded-full mx-auto border"
+          src="/hhh.png"
+          alt=""
+        />
+      </router-link>
+      <h3 class="text-center mt-4">用户名</h3>
+      <div class="text-center mt-4">
+        <button
+          class="text-white bg-gradient-to-r from-blue-400 via-blue-400 to-blue-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-8 py-2 text-center"
+        >
+          关注
+        </button>
       </div>
     </div>
-
-    <!-- 模态框 -->
-    <div v-show="showModal" class="fixed inset-0 flex items-center justify-center z-10">
-      <div class="bg-white w-4/5 sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 rounded-xl shadow-lg">
-        <h2 class="text-xl font-bold mb-4">选择了 xxx</h2>
-        <p class="text-gray-500 text-sm">作者：xxx ——《书名》</p>
-        <div class="text-center">
-        <!-- 前往按钮，点击后导航到新页面 -->
-        <router-link to="/">
-          <button class="bg-green-400 text-white px-4 py-2 mt-4 rounded-lg mx-4">
-            对话
-          </button>
-        </router-link>
-        
-        <!-- 取消按钮，点击后关闭模态框 -->
-        <button @click="showModal = false" class="bg-gray-400 text-white px-4 py-2 mt-4 rounded-lg mx-4">
-          取消
-        </button>
-        </div>
+    <router-link to="/qa">
+      <div class="px-4 py-2 bg-white p-4 w-3/4 rounded-xl mx-auto mt-6">
+        <p class="p-4 text-center">Ask me anyting！<br />欢迎向我匿名提问！</p>
       </div>
+      <div class="text-sm mt-3 text-center drop-shadow-lg">
+        点击此处向我匿名提问
+      </div>
+    </router-link>
+
+    <!-- QA -->
+    <div>
+      <div class="mt-40 text-lg pl-3 text-white font-bold pb-4 drop-shadow-lg">
+        xxx回答过的问题（75）
+      </div>
+
+      <!-- card -->
+
+      <router-link to="/info">
+        <Card
+          title="正义与复仇的区别"
+          userimg="https://img2.baidu.com/it/u=1185243695,3965528148&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"
+          content="正义与复仇的区别在于动机和行为的性质。正义是出于道德和法律的合理原因，追求公平和平等，通常通过合法的渠道来解决问题。复仇则是个人的报复行为，出于个人情感，通常超越了法律的界限，以伤害他人为目的。"
+        />
+      </router-link>
+
+      <router-link to="/info">
+        <Card
+          title="真的可以放弃陆地在海里生活吗"
+          userimg="https://img2.baidu.com/it/u=3475381334,1505093482&fm=253&fmt=auto&app=138&f=PNG?w=500&h=540"
+          content="是的，放弃陆地在海里生活是一种可能，但它需要牺牲与陆地社会的联系和舒适，以换取在海底的自由和独立。这是一种极端的生活选择，需要坚定的决心和适应能力。对于我来说，海洋是我热爱的家园。"
+        />
+      </router-link>
+
     </div>
   </div>
 </template>
 
-<script setup>
-import Character from "../components/Character.vue";
-
-import { ref } from 'vue';
-
-const showModal = ref(false);
+<script lang="ts" setup>
+import Card from "../components/Card.vue";
 </script>
