@@ -8,7 +8,7 @@
           alt=""
         />
       </router-link>
-      <h3 class="text-center mt-4">用户名</h3>
+      <h3 class="text-center mt-4">角色名</h3>
       <div class="text-center mt-4">
         <button
           class="text-white bg-gradient-to-r from-blue-400 via-blue-400 to-blue-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-8 py-2 text-center"
@@ -49,7 +49,6 @@
           content="是的，放弃陆地在海里生活是一种可能，但它需要牺牲与陆地社会的联系和舒适，以换取在海底的自由和独立。这是一种极端的生活选择，需要坚定的决心和适应能力。对于我来说，海洋是我热爱的家园。"
         />
       </router-link>
-
     </div>
   </div>
 </template>

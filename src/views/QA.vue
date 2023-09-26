@@ -2,13 +2,13 @@
   <div>
     <div class="pt-4">
       <router-link to="/main">
-      <img
-        class="w-16 h-16 rounded-full mx-auto border"
-        src="/hhh.png"
-        alt=""
-      />
+        <img
+          class="w-16 h-16 rounded-full mx-auto border"
+          src="/hhh.png"
+          alt=""
+        />
       </router-link>
-      <h3 class="text-center mt-4">用户名</h3>
+      <h3 class="text-center mt-4">角色名</h3>
       <div class="text-center mt-4">
         <button
           class="text-white bg-gradient-to-r from-blue-400 via-blue-400 to-blue-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-8 py-2 text-center"
