@@ -1,6 +1,8 @@
 <template>
-  <div class="max-w-screen-sm mx-auto bg-fixed bg-[url('./assets/bg.png')] bg-no-repeat bg-center fixed inset-0 py-6 lg:px-8">
+  <div class="max-w-screen-sm mx-auto min-h-screen bg-fixed bg-[url('./assets/bg.png')] bg-no-repeat bg-center fixed">
+    <div class="overflow-y-scroll h-screen py-6 lg:py-8">
       <router-view />
+    </div>
   </div>
 </template>
 
